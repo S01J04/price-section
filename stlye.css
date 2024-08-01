@@ -1,0 +1,497 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.main-section{
+    /* border: 3px solid rgb(69, 116, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price-section1{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(56,56,56,1) 49%, rgba(0,0,0,1) 100%);
+    /* border: 3px solid rgb(38, 61, 196); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 30px; */
+    width: 100%;
+    padding-bottom: 100px;
+}
+.price-section2{
+    min-height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62vw;
+}
+.section1-main{
+    /* border: 2px solid rgb(248, 11, 11); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    row-gap: 80px;
+
+}
+li{
+    list-style: none;
+}
+.main-heading-desc{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 350px;
+    text-align: center;
+}
+.heading{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 70px;
+}
+.heading h1{
+    font-size: 3.5vw;
+    font-weight: 600;
+    /* border: 2px solid black; */
+    color: rgb(35, 40, 51);
+}
+.images{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.images img{
+    /* border: 2px solid black; */
+    width: 90px;
+    /* height: 30px; */
+    aspect-ratio: 4/2;
+    margin-top: 6px;
+    margin-right: 20px;
+    /* object-fit: cover; */
+}
+.heading p{
+   
+    /* border: 2px solid black; */
+    font-size: 24px;
+    color: rgb(12, 6, 44);
+    padding: 10px 150px;
+    line-height: 31px;
+}
+.color{
+    color:rgb(117, 89, 255);
+}
+.section1-animations{
+    /* border: 2px solid black; */
+    height: 44px;
+    width: 60%;
+}
+.main-cards{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    width: 362px;
+    height: 862px;
+    background-color: white;
+    /* border: 2px solid black; */
+    padding: 20px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    row-gap: 60px;
+}
+
+.card {
+    display: none; /* Hide cards by default */
+  }
+  
+  .card.active {
+    display: flex; /* Show active cards */
+  }
+.card-first-sec{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.credits{
+        background-color:#F1EEFF ;
+}
+.card-first-sec div {
+    width: 100%;
+    /* background-color:#F1EEFF ; */
+}
+.card-first-sec div h2{
+    font-size: 32px;   
+    color: #7559ff;
+}
+.card-first-sec div p{
+    font-size: 14px;
+    color: rgb(129, 137, 153);    
+}
+.card-btn:first-child{
+    background-color: aliceblue;
+}
+.card-first-sec h1{
+    font-size: 32px;
+    color:  rgb(12, 6, 44);
+    line-height: 32px;
+    /* border: 2px solid black; */
+    width: 100%;
+}
+.credits{
+    /* height: 40px; */
+    border-radius: 200px;
+    /* border: 2px solid black; */
+    width: 100%;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.credits > div{
+    border-radius: 200px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex; justify-content: center;
+    align-items: center;
+    color: rgba(52, 29, 166, 0.5);
+    cursor: pointer;
+    padding: 6px;
+   
+}
+.activeredit{
+    background-color: #FFFFFF;
+    color: black;
+    /* border: 2px solid black; */
+ 
+ 
+}
+.card-btn{
+    width: 100%;
+    padding: 14px 40px;
+    border-radius: 12px;
+    border: none;
+    /* border: 2px solid black; */
+}
+.card-second-sec ,.card-third-sec {
+    width: 100%;
+   
+}
+.card-second-sec h3,.card-third-sec h3{
+    font-size: 16px; 
+}
+.card-second-sec div,.card-third-sec div{
+
+    margin-top: 5px;
+    
+}
+.cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 100%;
+}
+.twobtn{
+    /* border: 2px solid black; */
+    padding: 3px;
+    background-color: white;
+    width: 310px;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+    /* border: 2px solid blue; */
+}
+button.toggle-btn {
+    position: relative;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s ease;
+    overflow: hidden;
+  }
+  
+  button.toggle-btn.active-btn {
+    color: white;
+    background-color: transparent;
+    z-index: 10;
+  }
+  
+  button.toggle-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background: #341DA6;
+    transition: left 0.3s ease;
+    color: rgb(0, 0, 0);
+    z-index: 0;
+  }
+  
+  button.toggle-btn.active-btn::before {
+    left: 0;
+  }
+  
+  button.toggle-btn span {
+    position: relative;
+    z-index: 2;
+  }
+.twobtn button{
+    height: 52px;
+    width: 304px;
+    border-radius: 200px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card button{
+    font-weight: 600;
+    color: rgb(0, 0, 0);color: rgb(255, 255, 255);
+}
+.card:not(:first-child) button {
+    background-color: #775DF7;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+button{
+    cursor: pointer;
+}
+
+.section1-lastarrow{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.section1-lastdiv{
+    /* border: 2px solid rgb(202, 27, 27); */
+    cursor: pointer;
+     width: 70%; 
+    text-align: center; display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.seefullcomparison{
+    color: white;
+    font-size: 24px; border: 2px solid black;
+    font-weight: 400;
+}
+.FAQs{
+    color: 
+    rgb(117, 89, 255); border: 2px solid black;
+    width: max-content;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Container styling */
+#scroll-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* border: 3px solid black; */
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%; /* Ensure the container takes up the full width */
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  .credit-price-yearly{
+    font-size: 12px;
+    color: rgb(99, 99, 99);
+  }
+  
+  /* Scrolling text styling and animation */
+  #scroll-text {
+    display: inline-block; /* Ensure the text takes up only as much width as it needs */
+    /* Initial position for animation */
+    transform: translateX(100%);
+    
+    /* Animation properties */
+    animation: my-animation 50s linear infinite;
+  }
+  
+  /* Keyframes for the animation */
+  @keyframes my-animation {
+    from {
+      transform: translateX(70%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Vendor prefixes for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+  }
+  
+  /* Vendor prefixes for Chrome and Safari */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (min-width: 500px) and (max-width: 768px)  {
+    .heading{
+       
+          row-gap: 50px;
+    }
+    .heading p{
+        font-size: 18px;
+        padding: 10px 10px;
+    }
+    .price-section1,.main-heading-desc,.heading{
+        width: 96vw;
+    }
+    .heading h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .section1-animations{
+        width: 100%;
+    }
+    .main-heading-desc{
+        min-height: fit-content;
+        row-gap: 30px;
+    }
+    .card{
+        width: 70%;
+    }
+    .cards{
+        justify-content: center;
+        gap: 20px;
+    }
+    .card > div{
+        width: 100%;
+    }
+    .card-first-sec >div{
+        width: 100%;
+    }
+  }
+  
+ 
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .heading{
+       
+        row-gap: 50px;
+    }
+    .heading p{
+        font-size: 18px;
+        padding: 10px 10px;
+    }
+    .price-section1,.main-heading-desc,.heading{
+        width: 96vw;
+    }
+    .heading h1{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .section1-animations{
+        width: 100%;
+    }
+    .main-heading-desc{
+        min-height: fit-content;
+        row-gap: 30px;
+    }
+    .card{
+        width: 45%;
+    }
+    .cards{
+        justify-content: center;
+      gap: 20px;
+    }
+    .card > div{
+        width: 100%;
+    }
+    .card-first-sec >div{
+        width: 100%;
+    }
+    .section1-animations{
+        width: 80%;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width:1200px) {
+   
+    .heading p{
+        font-size: 18px;
+        padding: 10px 10px;
+    }
+    .heading h1{
+        font-size: 60px;
+        font-weight: 500;
+    }
+    .section1-animations{
+        width: 80%;
+    }
+    .card{
+        width: 32%;
+       
+    }
+    .cards{
+        row-gap: 30px;
+    }
+  }
+  @media only screen and (min-width: 1200px) and (max-width:1450px) {
+    .heading p{
+        font-size: 21px;
+        padding: 10px 10px;
+    }
+    .heading h1{
+        font-size: 70px;
+        font-weight: 500;
+    }
+    .section1-animations{
+        width: 80%;
+    }.cards{
+        row-gap: 30px;
+    }
+   
+  }
+  @media only screen and (min-width:1200px) and (max-width:1570px) {
+  .section1-main{
+        width: 90%;
+  }
+  .card{
+    width: 24%;
+  }
+   
+  }
